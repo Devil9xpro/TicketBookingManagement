@@ -22,6 +22,8 @@ public class TicketBookingManagementApplication {
         ticket.setPassengerName("Chinh");
         ticket.setEmail("chinhzz3107@gmail.com");
         ticketBookingService.createTicket(ticket);
+
+
     }
 
 }

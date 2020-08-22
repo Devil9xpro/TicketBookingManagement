@@ -37,4 +37,6 @@ public class TicketBookingController {
     public Ticket updateTicket(@PathVariable("ticketId") int ticketId, @PathVariable("newEmail") String newEmail){
         return ticketBookingService.updateTicket(ticketId,newEmail);
     }
+
+
 }
